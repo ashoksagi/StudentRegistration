@@ -1,9 +1,0 @@
-package com.busonboarding.repo;
-
-import org.springframework.data.repository.CrudRepository;
-
-import com.busonboarding.domain.Bus;
-
-public interface BusRepository extends CrudRepository<Bus, Integer> {
-
-}
