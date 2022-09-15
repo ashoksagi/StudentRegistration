@@ -1,0 +1,30 @@
+package com.student.registration.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+@Entity
+public class Student {
+//
+	
+	
+//	int id -- auto gen PK
+//	String busmodel
+//	int capacity
+//	int UserId --- User table key 
+//  String startingPoint
+//	String endPoint
+//  int reviewRating
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	int id;
+	String collageName;
+	String StudentName; 
+	String startingPoint;
+	String endPoint;
+	
+
+}
+	
